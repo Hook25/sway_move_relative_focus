@@ -10,6 +10,12 @@ Download the script to a location on disk, for example `~/.local/bin`.
 This script needs Python 3.8+, although it can be easily backported.
 This script needs access to `swaymsg` and assumes it is in the PATH.
 
+Run the following to download this to your `~/.local/bin` and making it executable:
+```
+curl https://raw.githubusercontent.com/Hook25/sway_move_relative_focus/refs/heads/master/sway_move_relative_focus.py > ~/.local/bin/sway_move_relative_focus.py
+chmod +x ~/.local/bin/sway_move_relative_focus.py
+```
+
 # Example usage
 
 Move telegram to the bottom left corner. Note the move position off screen.
